@@ -4,20 +4,26 @@
 }
 
 body {
-    font-family: 'Noto Serif', serif;
+ font-family: 'Poltawski Nowy', serif;
 
 }
 .cabecalho {
-    background-color: #424E61;
+    background-image: linear-gradient( #0B0016,#050B56,#0D116A);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 40px 0;
 }
 
 .cabecalho-imagem{
-    width: 15%;
+    width: 5%;
+}
+.cabecalho-inicio{  
+    justify-content: center;
+    align-content: left;
+     padding: 24px 0;
+}
 }
 
 .cabecalho-lista-item{
@@ -26,22 +32,30 @@ body {
     font-size: 20px;
 }
 
-.escola-imagem{
+.daniela-imagem{
     width: 25%;
 }
 
-.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
+.daniela{
+    background-image: linear-gradient( #0B0016,#2000E5,#3300FF,#F200AE);
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
+}
+
+.Daniela-div-informações{
+    width: 35%;
+}
+.daniela-titulo{
     padding: 24px 0;
 }
 
-.escola-div-conteudo{
-    width: 35%;
+.rodape-icone{  
+width: 15px;
 }
-.escola-titulo{
-    padding: 24px 0;
+
+.rodape-div{
+    text-align: center;
 }
